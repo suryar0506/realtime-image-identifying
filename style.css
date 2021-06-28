@@ -1,0 +1,42 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 12px 12px 12px grey;
+    color: rgb(78, 230, 78);
+}
+
+.heading_div{
+    float: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 12px 12px 12px grey;
+}
+
+.heading_div2{
+    font-size: 18px;
+}
+
+.btn-warning{
+    font-size: 23px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+canvas{
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 170px;
+    box-shadow: 10px 10px 50px red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 10px 10px 50px red;}
+    to {box-shadow: 10px 10px 50px yellow;}
+}
